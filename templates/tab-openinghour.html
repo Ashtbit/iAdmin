@@ -1,0 +1,124 @@
+﻿<ion-view title="Opening Hours" hide-nav-bar="false">
+    <ion-content class="has-header padding">
+
+        <div class="item ion-android-search itemDays">
+            <span>Alert Mode (12 of 12)</span>
+            <span class="itemValue">
+                <label class="toggle">
+                    <input type="checkbox">
+                    <div class="track yellow">
+                        <div class="pull-left handleOn">ON</div>
+                        <div class="pull-right handleOf">Off</div>
+                        <div class="handle handleYellow"></div>
+                    </div>
+
+            </span>
+        </div>
+
+        <div class="photo">
+            <img src="../img/test.jpg" style="height:140px" />
+
+        </div>
+
+        <div class="item ion-android-clock itemDays">
+            <span>24/7</span>
+            <span class="itemValue">
+                <label class="toggle">
+                    <input type="checkbox" ng-model="allDay">
+                    <div class="track yellow">
+                        <div class="pull-left handleOn">ON</div>
+                        <div class="pull-right handleOf">Off</div>
+                        <div class="handle handleYellow"></div>
+                    </div>
+
+            </span>
+        </div>
+        <div class="list" ng-show="!allDay">
+
+
+
+            <a class="item ion-chevron-right iconLeft itemDays" href="#/tab/customers">
+                <span>Monday</span>
+                <span class="itemValue">07:00-08:00</span>
+
+            </a>
+            <a class="item ion-chevron-right iconLeft itemDays" href="#">
+                <span>Tuesday</span>
+                <span class="itemValue">07:00-08:00</span>
+
+            </a>
+            <a class="item ion-chevron-right iconLeft itemDays" href="#">
+                <span>Wednessday</span>
+                <span class="itemValue">07:00-08:00</span>
+            </a>
+
+            <a class="item ion-chevron-right iconLeft itemDays" href=" #">
+                <span>Thursday</span>
+                <span class="itemValue">07:00-08:00</span>
+
+            </a>
+            <a class="item ion-chevron-right iconLeft itemDays" href="#">
+                <span>Friday</span>
+                <span class="itemValue">07:00-08:00</span>
+            </a>
+            <a class="item ion-chevron-right iconLeft itemDays" href="#">
+                <span>Saturday</span>
+                <span class="itemValue">07:00-08:00</span>
+            </a>
+            <a class="item ion-chevron-right iconLeft itemDays" href="#">
+                <span>Sunday</span>
+                <span class="itemValue">07:00-08:00</span>
+            </a>
+
+        </div>
+        <!--<ion-slide-box on-slide-changed="slideHasChanged($index)">
+            <ion-slide>
+                <div class="list" ng-show="!allDay">
+
+
+
+                    <a class="item ion-chevron-right iconLeft itemDays" href="#/tab/customers">
+                        <span>Monday</span>
+                        <span class="itemValue">07:00-08:00</span>
+
+                    </a>
+                    <a class="item ion-chevron-right iconLeft itemDays" href="#">
+                        <span>Tuesday</span>
+                        <span class="itemValue">07:00-08:00</span>
+
+                    </a>
+                    <a class="item ion-chevron-right iconLeft itemDays" href="#">
+                        <span>Wednessday</span>
+                        <span class="itemValue">07:00-08:00</span>
+                    </a>
+
+                    <a class="item ion-chevron-right iconLeft itemDays" href=" #">
+                        <span>Thursday</span>
+                        <span class="itemValue">07:00-08:00</span>
+
+                    </a>
+                    <a class="item ion-chevron-right iconLeft itemDays" href="#">
+                        <span>Friday</span>
+                        <span class="itemValue">07:00-08:00</span>
+                    </a>
+                    <a class="item ion-chevron-right iconLeft itemDays" href="#">
+                        <span>Saturday</span>
+                        <span class="itemValue">07:00-08:00</span>
+                    </a>
+                    <a class="item ion-chevron-right iconLeft itemDays" href="#">
+                        <span>Sunday</span>
+                        <span class="itemValue">07:00-08:00</span>
+                    </a>
+
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box yellow"><h1>YELLOW</h1></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box pink"><h1>PINK</h1></div>
+            </ion-slide>
+        </ion-slide-box>-->
+      
+           </ion-content>
+</ion-view>

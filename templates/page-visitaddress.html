@@ -1,0 +1,37 @@
+<ion-view title="Visit Address">
+    <ion-content class="has-header padding">
+        <div class="list">
+            <label class="item item-input">
+                <input type="text" class="input-label" placeholder="Street">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">From</span>
+                <input type="text">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">To</span>
+                <input type="text">
+            </label>
+            <a class="item ion-chevron-right iconLeft" ng-click="openModalCountry()">
+                <span>Country</span>
+                <span class="itemValue">{{selectedcountry}}</span>
+            </a>
+
+            <a class="item ion-chevron-right iconLeft" ng-click="openModalState()">
+                <span>State</span>
+                <span class="itemValue">{{selectedstate}}</span>
+
+            </a>
+            <label class="item item-input">
+                <span class="input-label">Zip</span>
+                <input type="text">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">City</span>
+                <input type="text">
+            </label>
+        </div>
+    </ion-content>
+</ion-view>
+
+

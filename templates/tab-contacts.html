@@ -1,0 +1,36 @@
+﻿<ion-view title="Contacts" hide-nav-bar="false">
+    <ion-content class="has-header padding">
+
+        <div class="item ion-android-search itemDays">
+            <span>Alert Mode (12 of 12)</span>
+            <span class="itemValue">
+                <label class="toggle">
+                    <input type="checkbox">
+                    <div class="track yellow">
+                        <div class="pull-left handleOn">ON</div>
+                        <div class="pull-right handleOf">Off</div>
+                        <div class="handle handleYellow"></div>
+                    </div>
+                </label>
+            </span>
+        </div>
+        <div class="photo">
+            <img src="../img/test.jpg" class="circle" />
+
+        </div>
+        <div class="list">
+
+            <div class="item listcol" ng-repeat=" contact in contacts">
+                <span>{{contact.name}}</span>
+                <div>
+                    <a ng-click="openContact()"> <i class="ion-ios7-arrow-forward" style="float: right; margin-right: 0px;"> </i> </a>
+                    <a ng-click="openContact()"> <i class="ion-ios7-email-outline" style="float: right; margin-right: 10px;"> </i> </a>
+                    <a ng-click="openContact()"> <i class="ion-ios7-telephone-outline" style="float:right; margin-right: 10px;"> </i> </a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </ion-content>
+</ion-view>
